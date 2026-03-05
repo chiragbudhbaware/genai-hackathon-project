@@ -1,0 +1,88 @@
+/* Main container */
+
+.dashboard-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+
+.dashboard-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.dashboard-navbar h2 {
+  font-size: 24px;
+}
+
+.logout-btn {
+  background: white;
+  color: #6d28d9;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logout-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Center Section */
+
+.upload-section {
+  flex: 1;                    /* This pushes footer down */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.upload-section h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.upload-section p {
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.upload-section input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-right: 10px;
+}
+
+.summary-btn {
+  background: linear-gradient(to right,#9333ea,#7e22ce);
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.summary-btn:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  opacity: 0.8;
+}

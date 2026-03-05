@@ -1,0 +1,75 @@
+.learn-more {
+  padding: 80px 20px;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.learnmore-header h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.learnmore-header p {
+  max-width: 600px;
+  margin: auto;
+  color: #555;
+}
+
+/* Features Grid */
+
+.featuress-grid {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feature-card-manage {
+  background: white;
+  padding: 30px;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.icon {
+  margin-bottom: 15px;
+  color: #2563eb;
+}
+
+.feature-card-manage h3 {
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #555;
+}
+
+.example {
+  margin-top: 10px;
+  font-style: italic;
+  color: #2563eb;
+}
+
+/* Workflow */
+
+.workflow {
+  margin-top: 60px;
+}
+
+.workflow-steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.workflow-steps span {
+  background: #2563eb;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+}
